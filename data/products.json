@@ -26,6 +26,15 @@
       "sizes": [
         "M"
       ]
+    },
+    {
+      "id": "4",
+      "name": "3dsf",
+      "price": 220,
+      "sizes": [
+        "L"
+      ],
+      "img": "/assets/images/size-pants-12.png"
     }
   ]
 }
