@@ -8,42 +8,6 @@
       "sizes": [
         "S"
       ]
-    },
-    {
-      "id": "2",
-      "name": "uuthd fdhdrd",
-      "price": 200,
-      "sizes": [
-        "L"
-      ],
-      "img": "/assets/images/size-pants-12.png"
-    },
-    {
-      "img": "/assets/images/size-pants-11.png",
-      "price": 124,
-      "name": "dsa",
-      "id": "3",
-      "sizes": [
-        "M"
-      ]
-    },
-    {
-      "id": "4",
-      "name": "3dsf",
-      "price": 220,
-      "sizes": [
-        "L"
-      ],
-      "img": "/assets/images/size-pants-12.png"
-    },
-    {
-      "id": "5",
-      "name": "fsa ga",
-      "price": 142,
-      "sizes": [
-        "L"
-      ],
-      "img": "/assets/images/size-pants-13.png"
     }
   ]
 }
