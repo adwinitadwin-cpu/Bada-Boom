@@ -17,6 +17,15 @@
         "L"
       ],
       "img": "/assets/images/size-pants-10.png"
+    },
+    {
+      "img": "/assets/images/size-pants-11.png",
+      "price": 124,
+      "name": "dsa",
+      "id": "3",
+      "sizes": [
+        "M"
+      ]
     }
   ]
 }
