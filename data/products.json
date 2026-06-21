@@ -35,6 +35,15 @@
         "L"
       ],
       "img": "/assets/images/size-pants-12.png"
+    },
+    {
+      "id": "5",
+      "name": "fsa ga",
+      "price": 142,
+      "sizes": [
+        "L"
+      ],
+      "img": "/assets/images/size-pants-13.png"
     }
   ]
 }
