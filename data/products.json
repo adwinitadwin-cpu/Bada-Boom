@@ -8,6 +8,15 @@
       "sizes": [
         "S"
       ]
+    },
+    {
+      "id": "2",
+      "name": "uuthd fdhdrd",
+      "price": 200,
+      "sizes": [
+        "L"
+      ],
+      "img": "/assets/images/size-pants-10.png"
     }
   ]
 }
