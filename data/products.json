@@ -4,7 +4,10 @@
       "id": "1",
       "name": "Вовняний блейзер Graphite Luxury",
       "price": 8500,
-      "img": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=600"
+      "img": "/assets/images/size-pants-1.png",
+      "sizes": [
+        "S"
+      ]
     }
   ]
 }
