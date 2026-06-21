@@ -2,7 +2,8 @@ backend:
   name: github
   repo: adwinitadwin-cpu/Bada-Boom
   branch: main
-  base_url: https://decap-cms-oauth.vercel.app
+  auth_type: implicit
+  app_id: Ov23lig1hjMObX8NGQ1W
 
 media_folder: "assets/images" # Перевірте, чи існує ця папка в репозиторії!
 public_folder: "/assets/images"
@@ -31,8 +32,8 @@ collections:
                 widget: "select"
                 multiple: true
                 options: [
-                  "XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", # Буквені (Худі, футболки)
-                  "42", "44", "46", "48", "50", "52", "54", "56", # Цифрові (Сукні, костюми)
-                  "26", "28", "30", "32", "34", "36",             # Джинси / Штани
-                  "36 ", "37 ", "38 ", "39 ", "40 ", "41 ", "42 ", "43 ", "44 ", "45 " # Взуття (з пробілом для унікальності, якщо треба)
+                  "XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", # Буквені
+                  "42", "44", "46", "48", "50", "52", "54", "56", # Цифрові
+                  "26", "28", "30", "32", "34", "36",             # Джинси
+                  "36 ", "37 ", "38 ", "39 ", "40 ", "41 ", "42 ", "43 ", "44 ", "45 " # Взуття
                 ]
