@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bada Boom — Преміальний Одяг та Взуття в Рахові</title>
+    
+    <!-- SEO & Маркетинг -->
+    <meta name="description" content="Ексклюзивний брендовий одяг та взуття від магазину Bada Boom у Рахові. Преміальна якість, найкращі світові тренди та швидка доставка Новою Поштою по всій Україні.">
+    
+    <!-- Open Graph (Для красивих посилань у соцмережах та месенджерах) -->
+    <meta property="og:title" content="Bada Boom — Преміальний Одяг та Взуття в Рахові">
+    <meta property="og:description" content="Ексклюзивний брендовий одяг та взуття. Преміальна якість та сервіс у серці Рахова.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&width=800&auto=format&fit=crop">
+
+    <!-- ПОДКЛЮЧЕНИЕ СТИЛЕЙ -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Шрифти: Дорогий та витончений Montserrat та Cormorant Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ШАПКА (HEADER) -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Bada Boom</a>
+            
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#catalog" class="nav-link">Каталог</a></li>
+                    <li><a href="#about" class="nav-link">Про шоурум</a></li>
+                    <li><a href="#reviews" class="nav-link">Відгуки</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакти</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="cart-icon" id="cartBtn" aria-label="Відкрити кошик">
+                    Кошик <span class="cart-count" id="cartCount">0</span>
+                </button>
+                <button class="burger-menu" id="burgerBtn" aria-label="Відкрити меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-cell">
+                    <div class="hero-content">
+                        <span class="hero-tag">Ексклюзивно в Рахові</span>
+                        <h1 class="hero-h1">Одяг, що підкреслює твій статус.</h1>
+                        <p class="hero-subtitle">Преміальна колекція 2026 від мультибренвого бутіка <strong>«Bada Boom»</strong>. Тільки оригінальна якість, дорогі тканини та лімітовані дропи для тих, хто не звик до компромісів.</p>
+                        <a href="#catalog" class="btn btn-gold">Інвестувати в стиль →</a>
+                    </div>
+                </div>
+                <div class="hero-cell">
+                    <div class="hero-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&width=800&auto=format&fit=crop" alt="Преміальний образ БАДА БУМ" class="hero-img" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. МАРКЕТИНГОВИЙ БЛОК ПРО ШОУРУМ -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="premium-title">Локація розкоші у серці Рахова</h2>
+                    <p class="about-text">Ми руйнуємо стереотипи про провінційний шопінг. Магазин <strong>«Bada Boom»</strong> розташований за адресою: <strong>м. Рахів, вул. Довженка</strong>. Тут на вас чекає персональний підбір образів від стилістів, закриті примірки та сервіс преміум-рівня, на який ви заслуговуєте.</p>
+                    <div class="location-badge">📍 Рахів, вул. Довженка (Центр міста)</div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&width=800&auto=format&fit=crop" alt="Шоурум БАДА БУМ Рахів" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. КАТАЛОГ -->
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <h2 class="section-title">Бестселери сезону</h2>
+            <div class="catalog-grid">
+                
+                <!-- Товар 1 -->
+                <div class="product-card" data-product-wrapper="1">
+                    <div class="product-img-box">
+                        <span class="product-tag">Hot Drop</span>
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&width=500&auto=format&fit=crop" alt="Преміальний вовняний блейзер Graphite Luxury" class="product-img" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Вовняний блейзер Graphite Luxury</h3>
+                        <p class="product-price">6 800 ₴</p>
+                        
+                        <!-- Вибір розміру -->
+                        <div class="product-size-container">
+                            <label class="size-label">Розмір:</label>
+                            <select class="product-size-select">
+                                <option value="S">S</option>
+                                <option value="M" selected>M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        
+                        <button class="btn btn-dark buy-btn" data-id="1">Додати в кошик</button>
+                    </div>
+                </div>
+                
+                <!-- Товар 2 -->
+                <div class="product-card" data-product-wrapper="2">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&width=500&auto=format&fit=crop" alt="Преміальні шкіряні кросівки Urban Run Premium" class="product-img" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Шкіряні кросівки Urban Run Premium</h3>
+                        <p class="product-price">5 400 ₴</p>
+                        
+                        <!-- Вибір розміру -->
+                        <div class="product-size-container">
+                            <label class="size-label">Розмір:</label>
+                            <select class="product-size-select">
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42" selected>42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                            </select>
+                        </div>
+                        
+                        <button class="btn btn-dark buy-btn" data-id="2">Додати в кошик</button>
+                    </div>
+                </div>
+                
+                <!-- Товар 3 -->
+                <div class="product-card" data-product-wrapper="3">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&width=500&auto=format&fit=crop" alt="Джинси палаццо з японського деніму" class="product-img" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Джинси палаццо з японського деніму</h3>
+                        <p class="product-price">3 900 ₴</p>
+                        
+                        <!-- Вибір розміру -->
+                        <div class="product-size-container">
+                            <label class="size-label">Розмір:</label>
+                            <select class="product-size-select">
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28" selected>28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                            </select>
+                        </div>
+                        
+                        <button class="btn btn-dark buy-btn" data-id="3">Додати в кошик</button>
+                    </div>
+                </div>
+                
+                <!-- Товар 4 -->
+                <div class="product-card" data-product-wrapper="4">
+                    <div class="product-img-box">
+                        <span class="product-tag">New</span>
+                        <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&width=500&auto=format&fit=crop" alt="Шовкова блуза Pure Silk" class="product-img" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Шовкова блуза Pure Silk</h3>
+                        <p class="product-price">4 200 ₴</p>
+                        
+                        <!-- Вибір розміру -->
+                        <div class="product-size-container">
+                            <label class="size-label">Розмір:</label>
+                            <select class="product-size-select">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M" selected>M</option>
+                                <option value="L">L</option>
+                            </select>
+                        </div>
+                        
+                        <button class="btn btn-dark buy-btn" data-id="4">Додати в кошик</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ВІДГУКИ -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Вибір вишуканих клієнтів</h2>
+            <div class="reviews-grid">
+                <!-- Відгук Олени Юріївни -->
+                <div class="review-card premium-review">
+                    <div class="review-user">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&width=150&auto=format&fit=crop" alt="Олена Юріївна" class="review-avatar" loading="lazy">
+                        <div>
+                            <h4 class="review-author">Олена Юріївна</h4>
+                            <span class="review-city">м. Рахів</span>
+                        </div>
+                    </div>
+                    <p class="review-text">«Bada Boom — це любов з першого погляду! Нарешті у Рахові з'явився простір з дорогим та дійсно якісним одягом. Купила тут блейзер, якість тканини неймовірна, всі подруги запитують, де замовляла. Обслуговування просто на висоті!»</p>
+                    <div class="review-product-attached">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&width=100&auto=format&fit=crop" alt="Придбаний вовняний блейзер" loading="lazy">
+                        <span>Фото з примірки в Bada Boom</span>
+                    </div>
+                </div>
+
+                <!-- Другий відгук -->
+                <div class="review-card">
+                    <div class="review-user">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&width=150&auto=format&fit=crop" alt="Дмитро К." class="review-avatar" loading="lazy">
+                        <div>
+                            <h4 class="review-author">Дмитро К.</h4>
+                            <span class="review-city">Закарпаття</span>
+                        </div>
+                    </div>
+                    <p class="review-text">«Замовив кросівки з доставкою Новою Поштою. Прийшли наступного дня. Запаковано дорого, якість топ, оригінал 100%. Буду звертатися ще!»</p>
+                    <div class="review-product-attached">
+                        <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&width=100&auto=format&fit=crop" alt="Придбані кросівки" loading="lazy">
+                        <span>Фото розпаковки на пошті</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР & КОНТАКТИ -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col" style="width: 40%;">
+                    <span class="footer-logo">Bada Boom</span>
+                    <p>Найкращий вибір преміального одягу в Рахові. Будь у тренді разом з нами.</p>
+                    
+                    <div class="social-buttons">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn instagram">Instagram</a>
+                        <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" class="social-btn telegram">Telegram</a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn facebook">Facebook</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col" style="width: 60%;">
+                    <h4 class="footer-title">Контактна інформація</h4>
+                    <ul class="footer-links-list">
+                        <li>📍 <strong>Адреса:</strong> м. Рахів, вул. Довженка, Шоурум «Bada Boom»</li>
+                        <li>📞 <strong>Телефон:</strong> <a href="tel:+380970000000">+38 (097) 000-00-00</a></li>
+                        <li>🚚 <strong>Доставка:</strong> Нова Пошта (НП) по всій Україні</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bada Boom. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- КНОПОЧКА ВГОРУ -->
+    <button class="btn-to-top" id="btnToTop" aria-label="Вгору">↑</button>
+
+    <!-- КОРЗИНА (DRAWER) -->
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-drawer-content">
+            <div class="cart-drawer-header">
+                <h3>Ваш кошик</h3>
+                <button class="cart-drawer-close" id="cartDrawerClose" aria-label="Закрити кошик">&times;</button>
+            </div>
+            
+            <div class="cart-drawer-items" id="cartDrawerItems">
+                <p class="empty-cart-text">Ваш кошик поки що порожній</p>
+            </div>
+            
+            <div class="cart-drawer-footer">
+                <div class="cart-total">
+                    <span>Загалом:</span>
+                    <span id="cartTotalSum">0 ₴</span>
+                </div>
+                
+                <!-- АНКЕТА ЗАМОВЛЕННЯ -->
+                <form id="checkoutForm" class="checkout-form">
+                    <h4 class="form-title">Дані для відправки (Нова Пошта)</h4>
+                    <div class="form-group">
+                        <input type="text" id="custName" placeholder="Прізвище та Ім'я" required autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="custPhone" placeholder="Номер телефону" required autocomplete="tel">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="custCity" placeholder="Місто / Населений пункт" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="custPostOffice" placeholder="№ Відділення або Поштомату НП" required>
+                    </div>
+                    <button type="submit" class="btn btn-gold btn-block" id="submitOrderBtn">Підтвердити замовлення</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

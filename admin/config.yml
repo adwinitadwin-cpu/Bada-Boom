@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: adwinitadwin-cpu/Bada-Boom
+  branch: main
+  base_url: https://decap-cms-oauth.vercel.app
+
+media_folder: "assets/images" # Перевірте, чи існує ця папка в репозиторії!
+public_folder: "/assets/images"
+
+collections:
+  - name: "catalog"
+    label: "Каталог Товарів"
+    files:
+      - file: "data/products.json"
+        label: "Список Товарів"
+        name: "products_list"
+        fields:
+          - label: "Список Товарів"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} ({{fields.price}} грн)"
+            fields:
+              - {label: "Унікальний ID (цифра)", name: "id", widget: "string"}
+              - {label: "Назва товару", name: "name", widget: "string"}
+              - {label: "Ціна (грн)", name: "price", widget: "number", value_type: "int"}
+              - {label: "Фото товару", name: "img", widget: "image"}
+              
+              # УНІВЕРСАЛЬНЕ ПОЛЕ РОЗМІРІВ (ОДЯГ ТА ВЗУТТЯ):
+              - label: "Доступні розміри"
+                name: "sizes"
+                widget: "select"
+                multiple: true
+                options: [
+                  "XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", # Буквені (Худі, футболки)
+                  "42", "44", "46", "48", "50", "52", "54", "56", # Цифрові (Сукні, костюми)
+                  "26", "28", "30", "32", "34", "36",             # Джинси / Штани
+                  "36 ", "37 ", "38 ", "39 ", "40 ", "41 ", "42 ", "43 ", "44 ", "45 " # Взуття (з пробілом для унікальності, якщо треба)
+                ]
